@@ -6,9 +6,9 @@ screen_height = 781
 pygame.init()
 screen = pygame.display.set_mode((screen_width, screen_height))
 
-pygame.display.set_caption("A Beautiful Sunset") # Adds title to the window
-bg_img = pygame.image.load("Chapter Two/nightsky.jpeg")
-alienbird = pygame.image.load("Chapter Two/alienbird.png")
+pygame.display.set_caption("Everything is fine here") # Adds title to the window
+bg_img = pygame.image.load("Chapter 2/images/nightsky.jpeg")
+alienbird = pygame.image.load("Chapter 2/images/alienbird.png")
 
 done = False
 white = pygame.Color(255, 255, 255)
